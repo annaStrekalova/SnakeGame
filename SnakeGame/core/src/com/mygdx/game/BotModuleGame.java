@@ -81,4 +81,17 @@ public class BotModuleGame implements Module{
         System.out.println("unload");
     }
     
+    public int keyUp(){
+        return 0; 
+    }
+    public int keyDown(){
+         return 1; 
+    }
+    public int keyLeft(){
+         return 2; 
+    }
+    public int keyRight(){
+         return 3; 
+    }
+   
 }
